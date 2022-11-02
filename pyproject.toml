@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "tree-sitter>=0.20.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyccmetrics"
+version = "0.1.0"
+authors = [
+  { name="Mohammad Mahdi Mohajer", email="" },
+]
+description = "Python package for calculating code complexity metrics of the target source code"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mmohajer9/pyccmetrics"
+"Bug Tracker" = "https://github.com/mmohajer9/pyccmetrics/issues"
