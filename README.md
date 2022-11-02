@@ -6,7 +6,7 @@ Python package for calculating code complexity metrics of the target source code
 
 With the help of this package, you can calculate the following code complexity metrics for your given source code as an input to it:
 
-| Level   |      | Metric                                 | Variant         |
+| Level   |      | Metric                                 | Variants         |
 | ------- | ---- | -------------------------------------- | --------------- |
 | methods | FOUT | Number of method calls (fan out)       | avg, max, total |
 |         | MLOC | Method lines of code                   | avg, max, total |
