@@ -26,6 +26,14 @@ With the help of this package, you can calculate the following code complexity m
 
 ## Getting Started
 
+### Support
+
+Currently, the following source code languages is supported:
+
+1. [x] Java
+2. [ ] Python
+3. [ ] JavaScript
+
 ### Dependencies
 
 1. Python 3
