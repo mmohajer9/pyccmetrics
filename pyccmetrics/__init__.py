@@ -9,3 +9,5 @@ __version__ = "0.1.0"
 __author__ = "Mohammad Mahdi Mohajer"
 
 # __credits__ = ""
+
+from .metrics import Metrics

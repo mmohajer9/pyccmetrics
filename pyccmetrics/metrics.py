@@ -1,6 +1,6 @@
 import itertools
 from tree_sitter import Language, Parser
-from metrics_utils import (
+from .metrics_utils import (
     find_depth,
     query_templates,
     initial_metrics_dict,

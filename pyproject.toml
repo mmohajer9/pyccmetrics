@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pyccmetrics"
 version = "0.1.0"
 authors = [
-  { name="Mohammad Mahdi Mohajer", email="" },
+  { name="Mohammad Mahdi Mohajer", email="mmohajer9@hotmail.com" },
 ]
 description = "Python package for calculating code complexity metrics of the target source code"
 readme = "README.md"
