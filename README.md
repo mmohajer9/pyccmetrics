@@ -49,7 +49,13 @@ pip install pyccmetrics
 
 ```python
 
+from pyccmetrics import Metrics
 
+metrics = Metrics("path/to/source/code")
+
+metrics.calculate()
+
+print(metrics.metrics_dict)
 
 ```
 
