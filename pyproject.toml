@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyccmetrics"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
   { name="Mohammad Mahdi Mohajer", email="mmohajer9@hotmail.com" },
 ]
@@ -15,7 +15,6 @@ dependencies = [
     "tree-sitter>=0.20.1",
 ]
 classifiers = [
-    "Development Status :: 3 - Alpha",
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",

@@ -6,12 +6,13 @@ from .metrics_utils import (
     initial_metrics_dict,
     remove_comments_and_blanks,
 )
+from pathlib import Path
 
 
 class Metrics:
     def __init__(self, file_path):
 
-        self.java_lang = Language("lib/my-languages.so", "java")
+        self.java_lang = Language(Path(__file__).parent / "lib/my-languages.so", "java")
         self.parser = Parser()
 
         self.parser.set_language(self.java_lang)
